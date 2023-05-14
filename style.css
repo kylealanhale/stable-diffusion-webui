@@ -446,10 +446,13 @@ table.settings-value-table td{
 }
 
 .livePreview{
-    position: absolute;
-    z-index: 300;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 200px !important;
+    z-index: 3000;
     background-color: white;
-    margin: -4px;
+    margin: 0px;
 }
 
 .dark .livePreview{
